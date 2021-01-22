@@ -1,0 +1,113 @@
+.icon_app {
+  color: rgba(23, 37, 230, 1);
+}
+.imagetext_app {
+  margin: 40px;
+}
+.profileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  align-items: center;
+  object-fit: cover;
+  object-position: 35% 35%;
+}
+h1,
+h2,
+h3 {
+  color: rgba(23, 37, 230, 1);
+}
+.imagetext_app > h1 {
+  margin-bottom: 20px;
+}
+
+.descripton_app {
+  position: relative;
+  height: 500px;
+  width: 100%;
+
+  background: linear-gradient(
+    250deg,
+    rgb(66, 117, 227) 0%,
+    rgba(23, 37, 230, 1) 50%,
+    rgb(0, 0, 0) 100%
+  );
+}
+
+.descripton_app > h2 {
+  color: white;
+  margin-top: 5%;
+  padding-top: 10%;
+}
+.descripton_app > h4 {
+  padding-top: 3%;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+.body_app {
+  position: relative;
+}
+
+.icon_app {
+  border: 2px solid rgba(41, 53, 222, 1);
+  border-radius: 4px;
+  width: 80px;
+  padding: 18px;
+  margin: 18px;
+  color: rgba(41, 53, 222, 1);
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+
+  border-radius: 10px;
+  width: 80%;
+
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 370px;
+  z-index: 1;
+  background-color: rgb(255, 248, 236);
+}
+.content1 {
+  width: 50%;
+  margin: 0 auto;
+  padding: 5px;
+}
+.content2 {
+  margin: 0 auto;
+}
+.content2 > p {
+  letter-spacing: 0.2rem;
+}
+.content2 > h2 {
+  padding: 25px 0 10px 0;
+  padding: 35% 0 15%;
+}
+.content1 > h4,
+.content1 > p {
+  letter-spacing: 0.2rem;
+}
+.blank {
+  height: 320px;
+}
+@media only screen and (max-width: 320px) {
+  .blank {
+    height: 1920px;
+  }
+}
+@media only screen and (max-width: 701px) {
+  .blank {
+    height: 420px;
+  }
+}
+
+@media only screen and (max-width: 501px) {
+  .blank {
+    height: 960px;
+  }
+}
