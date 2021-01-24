@@ -5,8 +5,4 @@ import Home from "./components/Home";
 
 import "./index.css";
 
-ReactDOM.render(
-  <Home />,
-
-  document.getElementById("root")
-);
+ReactDOM.render(<Home />, document.getElementById("root"));

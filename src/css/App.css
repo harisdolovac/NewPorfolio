@@ -11,6 +11,7 @@
   align-items: center;
   object-fit: cover;
   object-position: 35% 35%;
+  max-width: 100%;
 }
 h1,
 h2,
@@ -95,19 +96,23 @@ h3 {
 .blank {
   height: 320px;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 353px) {
   .blank {
-    height: 1920px;
+    height: 1100px !important;
   }
 }
-@media only screen and (max-width: 701px) {
+@media only screen and (min-width: 353px) and (max-width: 417px) {
   .blank {
-    height: 420px;
+    height: 1000px !important;
   }
 }
-
-@media only screen and (max-width: 501px) {
+@media only screen and (min-width: 417px) and (max-width: 492px) {
   .blank {
-    height: 960px;
+    height: 570px !important;
+  }
+}
+@media only screen and (min-width: 492px) and (max-width: 704px) {
+  .blank {
+    height: 500px !important;
   }
 }

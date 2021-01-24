@@ -20,19 +20,12 @@ const Project = (props) => {
           </div>
         </div>
         <h3>{title}</h3>
-        <a
-          href={link}
-          style={{ display: "table-cell" }}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="image_div">
-            <img className="image_projects" src={image} alt="projects" />
-          </div>
-        </a>
+
+        <div className="image_div">
+          <img className="image_projects" src={image} alt="projects" />
+        </div>
 
         <p>{description}</p>
-        <a href={link}>{link}</a>
       </div>
     </div>
   );
