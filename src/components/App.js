@@ -17,11 +17,11 @@ const App = () => {
           <div className="descripton_app">
             <h2>Hi, I’m Haris. Nice to meet you.</h2>
             <h4 className="description">
-              I've done remote work for agencies, consulted for startups, and
-              collaborated with talented people to create digital products for
-              both business and consumer use. I'm quietly confident, naturally
-              curious, and perpetually working on improving my chops one design
-              problem at a time.
+              Programming is fundamentally about creating solutions to problems.
+              At the end of the day, you have created something that didn’t
+              exist that morning, and that is in and of itself satisfying. While
+              constructing the program you constantly expand your understanding
+              of both the problem and the solution.
             </h4>
           </div>
           <div className="content">
@@ -35,7 +35,7 @@ const App = () => {
                 life in the browser.
               </p>
 
-              <h3>Languages I speak:</h3>
+              <h3>Language and libraries I use:</h3>
               <h4>JavaScript, ReactJs, Redux, HTML, CSS, Sass, Less</h4>
             </div>
             <div className="content2">
