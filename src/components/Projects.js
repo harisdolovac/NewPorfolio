@@ -3,7 +3,7 @@ import PROJECTS from "../data/projects";
 import "../css/Project.css";
 
 const Project = (props) => {
-  const { title, image, description, link } = props.project;
+  const { title, image, description, link, github } = props.project;
 
   return (
     <div className="all_projects">
@@ -17,14 +17,17 @@ const Project = (props) => {
                 Visit website
               </a>
             </button>
+            <button>
+              <a href={github} target="_blank" rel="noopener noreferrer">
+                View Code
+              </a>
+            </button>
           </div>
         </div>
         <h3>{title}</h3>
-
         <div className="image_div">
           <img className="image_projects" src={image} alt="projects" />
         </div>
-
         <p>{description}</p>
       </div>
     </div>

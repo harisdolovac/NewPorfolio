@@ -11,11 +11,10 @@ const Home = () => {
       <div className="wrapper_home">
         <Navbar />
         <Switch>
-          <Route strict path="/" exact component={App}>
+          <Route strict path="/" exact>
             <App />
           </Route>
-
-          <Route path="/messages" component={SendMessage}>
+          <Route path="/messages">
             <SendMessage />
           </Route>
         </Switch>
